@@ -113,7 +113,6 @@
 		DC67C1A310A07AD30033B702 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15510A07AD30033B702 /* refcnt.c */; };
 		DC67C1A510A07AD30033B702 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15710A07AD30033B702 /* scanner.c */; };
 		DC67C1A810A07AD30033B702 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15A10A07AD30033B702 /* symbol.c */; };
-		DC67C1C310A07B6B0033B702 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1BF10A07B6B0033B702 /* ZBarReaderController.m */; };
 		DC67C1C410A07B6B0033B702 /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1C010A07B6B0033B702 /* ZBarSymbol.m */; };
 		DC8245EF1629DC340010B2E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8245EE1629DC140010B2E6 /* Default-568h@2x.png */; };
 		DCB3789B12A43CAC0059B07B /* ZBarHelpController.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = DCB3789A12A43C7E0059B07B /* ZBarHelpController.h */; };
@@ -735,7 +734,6 @@
 				DC67C1A310A07AD30033B702 /* refcnt.c in Sources */,
 				DC67C1A510A07AD30033B702 /* scanner.c in Sources */,
 				DC67C1A810A07AD30033B702 /* symbol.c in Sources */,
-				DC67C1C310A07B6B0033B702 /* ZBarReaderController.m in Sources */,
 				DC67C1C410A07B6B0033B702 /* ZBarSymbol.m in Sources */,
 				DC4920EE10A70475000E4D43 /* ZBarImage.m in Sources */,
 				DC4920EF10A70475000E4D43 /* ZBarImageScanner.m in Sources */,
