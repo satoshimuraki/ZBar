@@ -85,7 +85,6 @@
 		DC3CF29A1218359400D7A786 /* ReaderSample in Copy Examples */ = {isa = PBXBuildFile; fileRef = DC3CF2081218358C00D7A786 /* ReaderSample */; };
 		DC3CF29B1218359400D7A786 /* readertest in Copy Examples */ = {isa = PBXBuildFile; fileRef = DC3CF2651218358C00D7A786 /* readertest */; };
 		DC3CF2A312197A8C00D7A786 /* zbar-back.png in Copy Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
-		DC3EBB2D119DDB2100107EE9 /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EBB2C119DDB2100107EE9 /* ZBarReaderViewController.m */; };
 		DC48C5341219FDDE0047193B /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
 		DC48C5411219FE550047193B /* readertest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48C5401219FE550047193B /* readertest.m */; };
 		DC48C57D121A1F410047193B /* ZBarSDK in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC48C55F121A1E7F0047193B /* ZBarSDK */; };
@@ -114,7 +113,6 @@
 		DC67C1A310A07AD30033B702 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15510A07AD30033B702 /* refcnt.c */; };
 		DC67C1A510A07AD30033B702 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15710A07AD30033B702 /* scanner.c */; };
 		DC67C1A810A07AD30033B702 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15A10A07AD30033B702 /* symbol.c */; };
-		DC67C1C210A07B6B0033B702 /* ZBarHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1BE10A07B6B0033B702 /* ZBarHelpController.m */; };
 		DC67C1C310A07B6B0033B702 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1BF10A07B6B0033B702 /* ZBarReaderController.m */; };
 		DC67C1C410A07B6B0033B702 /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1C010A07B6B0033B702 /* ZBarSymbol.m */; };
 		DC8245EF1629DC340010B2E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8245EE1629DC140010B2E6 /* Default-568h@2x.png */; };
@@ -624,6 +622,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "zbar" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -735,13 +735,11 @@
 				DC67C1A310A07AD30033B702 /* refcnt.c in Sources */,
 				DC67C1A510A07AD30033B702 /* scanner.c in Sources */,
 				DC67C1A810A07AD30033B702 /* symbol.c in Sources */,
-				DC67C1C210A07B6B0033B702 /* ZBarHelpController.m in Sources */,
 				DC67C1C310A07B6B0033B702 /* ZBarReaderController.m in Sources */,
 				DC67C1C410A07B6B0033B702 /* ZBarSymbol.m in Sources */,
 				DC4920EE10A70475000E4D43 /* ZBarImage.m in Sources */,
 				DC4920EF10A70475000E4D43 /* ZBarImageScanner.m in Sources */,
 				DC26004C118631C200FA987B /* ZBarCaptureReader.m in Sources */,
-				DC3EBB2D119DDB2100107EE9 /* ZBarReaderViewController.m in Sources */,
 				DCDC6E3011ADCA8E00021380 /* ZBarReaderView.m in Sources */,
 				DC3AAB4F11B71A040021C7B1 /* ZBarCVImage.m in Sources */,
 				DCF5C9AD11EA3AD100E7DC21 /* databar.c in Sources */,
